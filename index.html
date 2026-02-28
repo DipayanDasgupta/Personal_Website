@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dipayan Dasgupta — AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== CANVAS BACKGROUND ===== -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- ===== CURSOR ===== -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ===== NAV ===== -->
+  <nav id="navbar">
+    <div class="nav-logo">DD<span class="accent">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="https://github.com/DipayanDasgupta" target="_blank" class="nav-cta">GitHub ↗</a>
+    <div class="nav-hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-tag"><span class="dot-pulse"></span> Open to opportunities</div>
+    <h1 class="hero-name">
+      <span class="line-reveal">Dipayan</span><br/>
+      <span class="line-reveal delay-1">Dasgupta</span>
+    </h1>
+    <div class="hero-roles">
+      <span class="role-prefix">I build</span>
+      <span class="typed-text" id="typed"></span>
+      <span class="cursor-blink">|</span>
+    </div>
+    <p class="hero-sub fade-in-up">
+      2nd Year Civil Engineering @ IIT Madras &nbsp;·&nbsp; AI/ML Engineer &nbsp;·&nbsp; Quant Researcher<br/>
+      Building intelligent systems at the intersection of finance, NLP, and agentic AI.
+    </p>
+    <div class="hero-cta-group fade-in-up delay-2">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="RESUME_DIPAYAN_DASGUPTA.pdf" target="_blank" class="btn-outline">Download CV</a>
+    </div>
+    <div class="hero-stats fade-in-up delay-3">
+      <div class="stat-card">
+        <span class="stat-num" data-count="66">0</span>
+        <span class="stat-label">IMC Prosperity<br/>Global Rank</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num" data-count="5">0</span>
+        <span class="stat-label">Goldman Sachs<br/>Hackathon AIR</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num" data-count="12000">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Teams Beaten<br/>IMC Prosperity</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num" data-count="8">0</span>
+        <span class="stat-label">Major AI/ML<br/>Projects</span>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="section-label">// 01 — About</div>
+    <div class="about-grid">
+      <div class="about-image-wrap">
+        <!-- PLACEHOLDER: Replace src with your photo -->
+        <div class="img-placeholder" data-label="Your Photo (400×500px)" style="width:100%;aspect-ratio:4/5;">
+          <div class="placeholder-inner">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+            <p>Profile Photo</p>
+            <span>400 × 500 px</span>
+          </div>
+        </div>
+        <div class="about-badge"><span>IIT Madras</span><br/>CE24B059</div>
+      </div>
+      <div class="about-content">
+        <h2 class="section-title">The Builder<br/><em>Behind the Code</em></h2>
+        <p>I'm a 2nd-year Civil Engineering student at IIT Madras who wandered into AI and never looked back. I build production-grade intelligent systems — from agentic RAG pipelines and LLM-powered tools to quantitative finance engines and multimodal AI applications.</p>
+        <p>Currently founding <strong>Turia Labs</strong>, a supply chain intelligence platform that predicts market movements 24–72 hours before news headlines using maritime data and agentic AI. Also doing on-site work at <strong>ICICI AMC Prudential</strong> in portfolio optimization using ML and sentiment analysis.</p>
+        <p>When I'm not building, I'm competing — Global Rank 66 at IMC Prosperity (12,000+ teams), AIR 5 at Goldman Sachs Hackathon, and consistently placing in national-level quant and ML competitions.</p>
+        <div class="about-pills">
+          <span>Agentic AI</span>
+          <span>Quant Finance</span>
+          <span>LLM Engineering</span>
+          <span>RAG Systems</span>
+          <span>Full Stack</span>
+          <span>MLOps</span>
+        </div>
+        <div class="about-links">
+          <a href="https://github.com/DipayanDasgupta" target="_blank">GitHub ↗</a>
+          <a href="https://linkedin.com" target="_blank">LinkedIn ↗</a>
+          <a href="mailto:ce24b059@smail.iitm.ac.in">Email ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="section-label">// 02 — Skills</div>
+    <h2 class="section-title">Technical<br/><em>Arsenal</em></h2>
+    <div class="skills-grid">
+
+      <div class="skill-category">
+        <div class="skill-cat-header"><span class="cat-icon">⚡</span>Languages</div>
+        <div class="skill-tags">
+          <span class="skill-tag hot">Python</span>
+          <span class="skill-tag hot">C++</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Rust</span>
+          <span class="skill-tag">Dart</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">NoSQL</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-cat-header"><span class="cat-icon">🧠</span>AI / ML</div>
+        <div class="skill-tags">
+          <span class="skill-tag hot">PyTorch</span>
+          <span class="skill-tag hot">TensorFlow</span>
+          <span class="skill-tag hot">LangChain</span>
+          <span class="skill-tag hot">LangGraph</span>
+          <span class="skill-tag hot">RAG</span>
+          <span class="skill-tag">ChromaDB</span>
+          <span class="skill-tag">FAISS</span>
+          <span class="skill-tag">Scikit-Learn</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-cat-header"><span class="cat-icon">🤖</span>LLM / GenAI</div>
+        <div class="skill-tags">
+          <span class="skill-tag hot">Gemini</span>
+          <span class="skill-tag hot">OpenAI</span>
+          <span class="skill-tag">Groq</span>
+          <span class="skill-tag">ElevenLabs</span>
+          <span class="skill-tag">D-ID</span>
+          <span class="skill-tag">Whisper</span>
+          <span class="skill-tag">Prompt Eng.</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-cat-header"><span class="cat-icon">🔧</span>Backend</div>
+        <div class="skill-tags">
+          <span class="skill-tag hot">FastAPI</span>
+          <span class="skill-tag">Flask</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Celery</span>
+          <span class="skill-tag">Redis</span>
+          <span class="skill-tag hot">Docker</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">Streamlit</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-cat-header"><span class="cat-icon">🛠</span>Tools & Others</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Playwright</span>
+          <span class="skill-tag">Selenium</span>
+          <span class="skill-tag">Scrapy</span>
+          <span class="skill-tag">spaCy</span>
+          <span class="skill-tag">OCR</span>
+          <span class="skill-tag">OpenCV</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Next.js</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="skill-cat-header"><span class="cat-icon">📈</span>Quant / Finance</div>
+        <div class="skill-tags">
+          <span class="skill-tag hot">Portfolio Optimization</span>
+          <span class="skill-tag">Backtesting</span>
+          <span class="skill-tag">Risk Parity</span>
+          <span class="skill-tag">Fama-French</span>
+          <span class="skill-tag">QuantStats</span>
+          <span class="skill-tag">yfinance</span>
+          <span class="skill-tag">DRL Trading</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="section-label">// 03 — Projects</div>
+    <h2 class="section-title">What I've<br/><em>Built</em></h2>
+
+    <!-- Featured Project -->
+    <div class="project-featured">
+      <div class="project-featured-img">
+        <!-- PLACEHOLDER: Replace with project screenshot -->
+        <div class="img-placeholder" data-label="Turia Labs Dashboard Screenshot (1200×700px)" style="width:100%;aspect-ratio:12/7;">
+          <div class="placeholder-inner">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            <p>Dashboard Screenshot</p>
+            <span>1200 × 700 px</span>
+          </div>
+        </div>
+        <div class="project-badge-live">🟢 Live / Active</div>
+      </div>
+      <div class="project-featured-content">
+        <div class="project-date">Feb 2026 — Present</div>
+        <h3>Turia Labs: Sovereign Supply Chain Intelligence</h3>
+        <p class="project-role">Founder & Lead Architect</p>
+        <p>An end-to-end platform generating <strong>"physical alpha"</strong> by analyzing maritime data to predict market movements <strong>24–72 hours before news headlines</strong>. Scrapes 7 major Indian ports, uses LangGraph + Gemini 2.5 for agentic investigation of supply chain anomalies.</p>
+        <div class="project-tech">
+          <span>LangGraph</span><span>Gemini 2.5</span><span>FastAPI</span><span>Next.js</span><span>Playwright</span><span>SQLAlchemy</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/DipayanDasgupta" class="btn-ghost" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Grid -->
+    <div class="projects-grid">
+
+      <div class="project-card" data-index="0">
+        <div class="project-card-img">
+          <div class="img-placeholder" data-label="KDSH Hackathon Screenshot (600×340px)" style="width:100%;aspect-ratio:16/9;">
+            <div class="placeholder-inner"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg><p>Project Screenshot</p><span>600 × 340 px</span></div>
+          </div>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-tag">🏆 KDSH 2026 Finalist · Top 10</div>
+          <h4>AI Narrative Consistency Checker</h4>
+          <p>Multi-agent RAG with adversarial <em>Prosecutor vs. Defender</em> architecture to verify narrative consistency across 100k+ word novels. Real-time ingestion via Pathway VectorStoreServer.</p>
+          <div class="project-tech"><span>Pathway</span><span>Gemini 2.5</span><span>RAG</span><span>Python</span></div>
+          <div class="project-links"><a href="https://github.com/DipayanDasgupta" target="_blank">View Code ↗</a></div>
+        </div>
+      </div>
+
+      <div class="project-card" data-index="1">
+        <div class="project-card-img">
+          <div class="img-placeholder" data-label="Portfolio Optimizer Screenshot (600×340px)" style="width:100%;aspect-ratio:16/9;">
+            <div class="placeholder-inner"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg><p>Project Screenshot</p><span>600 × 340 px</span></div>
+          </div>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-tag">📊 Quant Finance</div>
+          <h4>AI Portfolio Optimizer & Backtesting Engine</h4>
+          <p>Professional-grade quant investment platform with ML-driven strategy (LightGBM), walk-forward backtesting, HRP rebalancing, 30+ KPIs, and Gemini-powered natural language summaries.</p>
+          <div class="project-tech"><span>LightGBM</span><span>Celery</span><span>Redis</span><span>Gemini</span><span>QuantStats</span></div>
+          <div class="project-links"><a href="https://github.com/DipayanDasgupta" target="_blank">View Code ↗</a></div>
+        </div>
+      </div>
+
+      <div class="project-card" data-index="2">
+        <div class="project-card-img">
+          <div class="img-placeholder" data-label="RAG Chatbot Screenshot (600×340px)" style="width:100%;aspect-ratio:16/9;">
+            <div class="placeholder-inner"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg><p>Project Screenshot</p><span>600 × 340 px</span></div>
+          </div>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-tag">🎤 Voice AI · Multimodal</div>
+          <h4>Shaastra 2025 Multimodal RAG Chatbot</h4>
+          <p>Local-first AI chatbot with full voice interaction (Faster-Whisper STT, Parler-TTS with Indian accent). Agentic RAG via LangGraph + Knowledge Graph hybrid search. Optimized for 6GB VRAM.</p>
+          <div class="project-tech"><span>LangGraph</span><span>ChromaDB</span><span>NetworkX</span><span>Llama 3.2</span></div>
+          <div class="project-links"><a href="https://github.com/DipayanDasgupta" target="_blank">View Code ↗</a></div>
+        </div>
+      </div>
+
+      <div class="project-card" data-index="3">
+        <div class="project-card-img">
+          <div class="img-placeholder" data-label="AI Portfolio Agent Screenshot (600×340px)" style="width:100%;aspect-ratio:16/9;">
+            <div class="placeholder-inner"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg><p>Project Screenshot</p><span>600 × 340 px</span></div>
+          </div>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-tag">🤖 AI Agent · Real-Time</div>
+          <h4>AI Portfolio Agent (Real-Time Market Analysis)</h4>
+          <p>Multi-page Streamlit dashboard for live Indian market tracking with AI agent creating optimal portfolios, DRL trading simulations (OpenAI Gym), risk metrics (Beta, VaR, CVaR).</p>
+          <div class="project-tech"><span>Streamlit</span><span>Gemini</span><span>TensorFlow</span><span>OpenAI Gym</span></div>
+          <div class="project-links"><a href="https://github.com/DipayanDasgupta" target="_blank">View Code ↗</a></div>
+        </div>
+      </div>
+
+      <div class="project-card" data-index="4">
+        <div class="project-card-img">
+          <div class="img-placeholder" data-label="Cricket Video Generator Screenshot (600×340px)" style="width:100%;aspect-ratio:16/9;">
+            <div class="placeholder-inner"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg><p>Project Screenshot</p><span>600 × 340 px</span></div>
+          </div>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-tag">🎬 Generative Video</div>
+          <h4>AI Cricket Commentary Video Generator</h4>
+          <p>Automated broadcast-quality video generation: Gemini AI scripts, D-ID AI presenter with lip-sync, ElevenLabs voice cloning, MoviePy composition with animated charts.</p>
+          <div class="project-tech"><span>D-ID</span><span>ElevenLabs</span><span>Gemini</span><span>MoviePy</span><span>FastAPI</span></div>
+          <div class="project-links"><a href="https://github.com/DipayanDasgupta" target="_blank">View Code ↗</a></div>
+        </div>
+      </div>
+
+      <div class="project-card" data-index="5">
+        <div class="project-card-img">
+          <div class="img-placeholder" data-label="News Analyzer Screenshot (600×340px)" style="width:100%;aspect-ratio:16/9;">
+            <div class="placeholder-inner"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"/></svg><p>Project Screenshot</p><span>600 × 340 px</span></div>
+          </div>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-tag">📰 NLP · Scraping</div>
+          <h4>Sectoral News Analyzer & Custom Web Scraper</h4>
+          <p>Scrapy + Playwright pipeline for Indian financial news (Moneycontrol). Dual sentiment analysis: VADER (lexical) + Gemini (contextual). Flask UI with Chart.js visualizations.</p>
+          <div class="project-tech"><span>Scrapy</span><span>Playwright</span><span>VADER</span><span>Gemini</span><span>Flask</span></div>
+          <div class="project-links"><a href="https://github.com/DipayanDasgupta" target="_blank">View Code ↗</a></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="section-label">// 04 — Experience</div>
+    <h2 class="section-title">Where I've<br/><em>Worked</em></h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Feb 2026 — Present</div>
+        <div class="timeline-card">
+          <div class="tl-header">
+            <div class="tl-img">
+              <div class="img-placeholder" data-label="Turia Labs Logo (80×80px)" style="width:80px;height:80px;">
+                <div class="placeholder-inner small"><span>Logo</span></div>
+              </div>
+            </div>
+            <div>
+              <h4>Founder & Lead Architect</h4>
+              <p class="tl-company">Turia Labs</p>
+            </div>
+          </div>
+          <p>Building a sovereign supply chain intelligence platform using agentic AI and maritime data to generate trading signals 24–72 hours ahead of market-moving news.</p>
+          <div class="project-tech"><span>LangGraph</span><span>Gemini 2.5</span><span>FastAPI</span><span>Next.js</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Jun 2025 — Present</div>
+        <div class="timeline-card">
+          <div class="tl-header">
+            <div class="tl-img">
+              <div class="img-placeholder" data-label="ICICI AMC Logo (80×80px)" style="width:80px;height:80px;">
+                <div class="placeholder-inner small"><span>Logo</span></div>
+              </div>
+            </div>
+            <div>
+              <h4>Onsite Intern</h4>
+              <p class="tl-company">ICICI AMC Prudential</p>
+            </div>
+          </div>
+          <p>Portfolio optimization using ML and LLM-based news sentiment analysis for generating trading signals in a live production environment.</p>
+          <div class="project-tech"><span>ML</span><span>LLM</span><span>Sentiment Analysis</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">May 2025 — Present</div>
+        <div class="timeline-card">
+          <div class="tl-header">
+            <div class="tl-img">
+              <div class="img-placeholder" data-label="Shaastra 2026 Logo (80×80px)" style="width:80px;height:80px;">
+                <div class="placeholder-inner small"><span>Logo</span></div>
+              </div>
+            </div>
+            <div>
+              <h4>MLOps Developer</h4>
+              <p class="tl-company">Shaastra 2026 | Webops Club IITM</p>
+            </div>
+          </div>
+          <p>Building LLM-integrated chatbot for the Shaastra Portal and SMAIL email classifier (Groq LLM + PostgreSQL) for campus email infrastructure.</p>
+          <div class="project-tech"><span>Groq LLM</span><span>Docker</span><span>PostgreSQL</span><span>Flask</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Jan 2025 — Mar 2025</div>
+        <div class="timeline-card">
+          <div class="tl-header">
+            <div class="tl-img">
+              <div class="img-placeholder" data-label="Everyst Group Logo (80×80px)" style="width:80px;height:80px;">
+                <div class="placeholder-inner small"><span>Logo</span></div>
+              </div>
+            </div>
+            <div>
+              <h4>Remote Intern — Quant Research</h4>
+              <p class="tl-company">Everyst Group</p>
+            </div>
+          </div>
+          <p>Quantitative securities research and analysis for developing trading strategies and portfolio management solutions.</p>
+          <div class="project-tech"><span>Quant Research</span><span>Trading Strategies</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements">
+    <div class="section-label">// 05 — Achievements</div>
+    <h2 class="section-title">Competitions &<br/><em>Recognition</em></h2>
+    <div class="achievements-grid">
+
+      <div class="ach-card gold">
+        <div class="ach-rank">🥇</div>
+        <h4>IMC Prosperity 2025</h4>
+        <p class="ach-result">Global Rank <strong>66</strong> · India Rank <strong>9</strong></p>
+        <p class="ach-desc">Out of 12,000+ teams worldwide in algorithmic trading competition.</p>
+      </div>
+
+      <div class="ach-card gold">
+        <div class="ach-rank">🏆</div>
+        <h4>Goldman Sachs Hackathon 2025</h4>
+        <p class="ach-result">All India Rank <strong>5</strong></p>
+        <p class="ach-desc">National-level hackathon for quantitative and technology problems.</p>
+      </div>
+
+      <div class="ach-card silver">
+        <div class="ach-rank">🥈</div>
+        <h4>KDSH 2026 Hackathon</h4>
+        <p class="ach-result">Top <strong>10</strong> Finalist</p>
+        <p class="ach-desc">Track: Systems Reasoning with NLP & GenAI.</p>
+      </div>
+
+      <div class="ach-card silver">
+        <div class="ach-rank">🌐</div>
+        <h4>WorldQuant BRAIN 2025</h4>
+        <p class="ach-result"><strong>National Finals</strong></p>
+        <p class="ach-desc">Selected for national finals in quantitative research competition.</p>
+      </div>
+
+      <div class="ach-card bronze">
+        <div class="ach-rank">⚡</div>
+        <h4>Appian Tech @ IITM</h4>
+        <p class="ach-result">Rank <strong>9</strong></p>
+        <p class="ach-desc">Technology competition at IIT Madras.</p>
+      </div>
+
+      <div class="ach-card bronze">
+        <div class="ach-rank">💻</div>
+        <h4>Codeforces</h4>
+        <p class="ach-result"><strong>Specialist</strong> · Max 1600</p>
+        <p class="ach-desc">Shaastra Contest 2025: Global Rank 29. IICPC Merit Certificate (AIR 440).</p>
+      </div>
+
+      <div class="ach-card">
+        <div class="ach-rank">🎓</div>
+        <h4>JEE Advanced 2024</h4>
+        <p class="ach-result">AIR <strong>5672</strong></p>
+        <p class="ach-desc">BITSAT: 323. Secured admission to IIT Madras.</p>
+      </div>
+
+      <div class="ach-card">
+        <div class="ach-rank">🏦</div>
+        <h4>Inter IIT Quant Contingent</h4>
+        <p class="ach-result">Oct–Dec 2025</p>
+        <p class="ach-desc">Ebullient Securities problem: exhaustive data analysis, trading algorithm development, regime classification.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="section-label">// 06 — Contact</div>
+    <div class="contact-wrapper">
+      <div class="contact-text">
+        <h2 class="section-title">Let's Build<br/><em>Something.</em></h2>
+        <p>I'm always open to interesting projects, research collaborations, and internship opportunities. Whether it's agentic AI, quant finance, or something I haven't thought of yet — let's talk.</p>
+        <div class="contact-links">
+          <a href="mailto:ce24b059@smail.iitm.ac.in" class="contact-link">
+            <span class="contact-link-icon">✉</span>
+            ce24b059@smail.iitm.ac.in
+          </a>
+          <a href="mailto:deep.dasgupta2006@gmail.com" class="contact-link">
+            <span class="contact-link-icon">✉</span>
+            deep.dasgupta2006@gmail.com
+          </a>
+          <a href="tel:+918928315649" class="contact-link">
+            <span class="contact-link-icon">📞</span>
+            +91 8928315649
+          </a>
+          <a href="https://github.com/DipayanDasgupta" target="_blank" class="contact-link">
+            <span class="contact-link-icon">⌥</span>
+            github.com/DipayanDasgupta
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <input type="text" placeholder="Subject" />
+          <textarea rows="5" placeholder="Your message..."></textarea>
+          <button type="submit" class="btn-primary">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Dipayan Dasgupta<span class="accent">.</span></div>
+      <p>Built with ❤️ · IIT Madras · 2026</p>
+      <div class="footer-links">
+        <a href="https://github.com/DipayanDasgupta" target="_blank">GitHub</a>
+        <a href="mailto:ce24b059@smail.iitm.ac.in">Email</a>
+        <a href="RESUME_DIPAYAN_DASGUPTA.pdf" target="_blank">Resume</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
